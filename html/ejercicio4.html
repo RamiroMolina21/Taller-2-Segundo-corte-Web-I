@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <script src="../js/utilidades2.js"></script>
+</head>
+
+<body>
+    <h1>Formulario de Empleados</h1>
+    <h2>Datos a diligenciar: </h2>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br><br>
+
+    <label for="codigo">Código Empleado:</label>
+    <input type="text" id="codigo" required><br><br>
+
+    <button onclick="adicionarEmpleado()">Adicionar</button>
+    <br>
+    <br>
+
+    <table id="tablaEmpleados" border="1">
+        <tr>
+            <th>Código Empleado</th>
+            <th>Nombre</th>
+        </tr>
+        
+    </table>
+
+</body>
+
+</html>
